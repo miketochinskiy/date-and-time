@@ -9,11 +9,11 @@ main {
   grid-template-columns: repeat(1fr);
   /* verrtical center   */
   align-content: center;
+  justify-content: center;
   /*  extend to viewport height  */
   height: 100vh;
   font-size: 100px;
   font-family: 'Epilogue-light';
-  margin-top: 50px;
 }
 
 main time {

@@ -33,3 +33,12 @@ main time {
   
 }
 
+button, input[type="submit"], input[type="reset"] {
+	background: none;
+	color: white;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	outline: inherit;
+  margin-top: 100px;
+}

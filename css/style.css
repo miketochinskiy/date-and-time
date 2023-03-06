@@ -1,8 +1,4 @@
-/* Diagnostic */
-
-/* * {
-  outline: 1px dotted darkgray;
-} */
+@import url(epilogue.css);
 
 /* Layout  */
 main {
@@ -14,6 +10,7 @@ main {
   height: 100vh;
   background-color: black;
   font-size: 100px;
+  font-family: 'Epilogue-light';
 }
 
 main time {

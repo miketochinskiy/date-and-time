@@ -1,22 +1,35 @@
 /* Diagnostic */
 
-* {
+/* * {
   outline: 1px dotted darkgray;
-}
+} */
 
 /* Layout  */
 main {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1fr);
   /* verrtical center   */
   align-content: center;
   /*  extend to viewport height  */
   height: 100vh;
+  background-color: black;
+  font-size: 100px;
 }
 
 main time {
 /*  center content  */
   text-align: center;
+
 }
 
+.time {
+  padding: 100px;
+  color: white;
+}
+
+.date {
+  padding: 100px;
+  color: white;
+  
+}
 

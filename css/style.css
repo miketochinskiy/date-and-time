@@ -14,6 +14,7 @@ main {
   height: 100vh;
   font-size: 100px;
   font-family: 'Epilogue-light';
+  block-size: fit-content;
 }
 
 main time {

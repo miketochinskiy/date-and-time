@@ -12,7 +12,7 @@ function enterFullScreen(element) {
   
   let btn = document.getElementById("full_screen");
   btn.addEventListener("click", function(){
-    let videoEle = document.querySelector('main');
+    let videoEle = document.querySelector('body');
     enterFullScreen(everything);
   });
   

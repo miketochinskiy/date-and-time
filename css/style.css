@@ -1,18 +1,16 @@
 @import url(epilogue.css);
 
-body {
+  body {
   background-color: black;
 }
 
 main {
   display: grid;
   grid-template-columns: repeat(1fr);
-  /* verrtical center   */
   align-content: center;
   justify-content: center;
-  /*  extend to viewport height  */
   height: 100vh;
-  font-size: max(10vw, 30px);
+  font-size: max(7vw, 70px);
   font-family: 'Epilogue-light';
   block-size: fit-content;
 }
@@ -36,7 +34,7 @@ main time {
 
 button, input[type="submit"], input[type="reset"] {
 	background: none;
-	color: white;
+	color: rgba(255, 255, 255, 0.25);
 	border: none;
 	padding: 0;
 	cursor: pointer;

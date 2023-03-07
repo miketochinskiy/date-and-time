@@ -23,3 +23,18 @@ function enterFullScreen(element) {
       console.log('Exited fullscreen.');
     }
   });
+
+window.addEventListener("load",function() {
+  // Get the document element
+  var doc = document.documentElement;
+
+  // Request fullscreen
+  doc.requestFullscreen = doc.requestFullscreen || doc.mozRequestFullScreen || doc.webkitRequestFullScreen || doc.msRequestFullscreen;
+  doc.requestFullscreen();
+
+  // Exit fullscreen on touch
+  document.addEventListener("touchstart",function(){
+    doc.exitFullscreen = doc.exitFullscreen || doc.mozCancelFullScreen || doc.webkitExitFullscreen || doc.msExitFullscreen;
+    doc.exitFullscreen();
+  });
+});
